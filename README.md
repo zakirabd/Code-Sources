@@ -1,2 +1,1 @@
-# Code-Sources
-Code Sources
+My name is Zakir Abdurrahimov, I am 22 years old and my speciality is the oil and gas equipment engineering. Although my speciality is not according to the software engineering but there are some simple website examples in my localhost that I have coded them because of it is interesting to me and there are a few of them in this github account
