@@ -1,0 +1,311 @@
+
+@media only screen and (max-width: 1200px) {
+    body{font-size: 19px;}
+    .container {
+        max-width: 90%;
+        margin: 0 auto;
+      }
+    .box { width: 250px !important;}
+    .header-text-box {width: 100%;}
+    .img-icon {
+        width: 80px;
+        height: 80px;
+      }
+    .header-image {
+        margin-top: 90px;
+        height: 450px;
+        width: auto;
+      }
+    .awesome_apps {
+      margin-bottom: 30px;
+      width: 380px;
+    }
+    .awesome_apps p {
+      margin-top: 15px;
+      width: 400px;
+    }
+    .ultimate_feature_img{width: 350px;}
+}
+
+
+
+
+@media only screen and (max-width: 1023px) {
+    body{font-size: 17px;}
+    .container {
+        max-width: 90%;
+        margin: 0 auto;
+      }
+    .box { width: 250px !important;}
+    .header-text-box {
+      margin-top: 20%;
+      margin-left: 10%;
+      width: 100%;
+    }
+    .header-text-box h1 {
+      width: 80%;
+      line-height: 60px;
+    }
+    .editior-choice{width: 60%;}
+    .img-icon {
+        width: 75px !important;
+        height:75px !important;
+      }
+    .header-image {
+        margin-top: 13%;
+        height: auto;
+        width: 25%;
+      }
+    .section_features_image{
+        width: 40%;
+        height: auto;
+    }
+    .awesome_apps {
+        margin-bottom: 30px;
+        width: 380px;
+    }
+    .awesome_apps h2 {margin-bottom: 10px;}
+    .awesome_apps p {margin-top: 10px;}
+    .awesome_box { margin-top: 30px;}
+    .texts_smart_jackpots { top: 100px;  }
+    .texts_smart_jackpots h2 { width: 60%;}
+    .feature_icon_components h3 { margin-top: 10px;}
+    .get_awesome_pay_component {
+        width: 280px;
+        height: 520px;
+    }
+    .designed_section_image{width: 100%;}
+    .designed_section_text h1{width: 80%;}
+    .designed_section_text p{width: 90%;}
+    .ultimate_component:nth-child(2) { margin-left: 1%; }
+    .ultimate_feature_img{width: 35%; }
+    .ultimate_text_box h2 { margin-bottom: 10px; }
+ 
+    .ultimate_component { margin-top: 30px; }
+    .ultimate_component img { margin-bottom: 10px;}
+    .see_all:link,
+    .see_all:visited { margin-top: 30px; }
+    .designed_section_image{width: 45%;}
+    .meeting_client_box h1{width: 68%; font-size: 200%; line-height: 45px;}
+    .meeting_client_box p {
+      margin-top: 1%;
+      width: 100%; 
+      line-height: 20px;
+    }
+    .meeting_client_box h3{line-height: 30px;}
+    .meating_text { margin-top: 0 !important; }
+    .meeting_client_section_img { width: 50%;}
+    .row-users{margin-top: 45px;}
+    .user_name {width: 150px}
+    
+    .asked_container { width: 90%; height: 100%;}
+    .asked_section_body h2 {margin-top: 6%; line-height: 30px;}
+    .asked_section_body p { 
+        margin-top: 5%;
+        line-height: 30px;
+        width: 90%;}
+    .asked_secton_row p{ font-size: 80%; }
+    .download_section_text_box{width: 100%;} 
+    .download_section_text_box h1{
+      line-height: 40px;
+      width: 100%;
+    }
+    .download_section_text_box p{
+      line-height: 20px;
+    }
+    .download_buttons:nth-child(2){margin-left: 5%;}
+    .dowload_app_sectopn_img{width: 50%;}
+}
+
+@media only screen and (max-width: 830px) {
+  
+  
+  .respons-btn {
+    display: inline-block;
+  }
+  .main-nav {
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: 0;
+    top: -600px;
+    text-align: center;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+   
+  }
+
+  .main-nav li {
+    width: 100px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-nav li:nth-last-child(1){width: 200px; }
+  #check:checked ~ .main-nav {
+    top: 0;
+    height: 100vh;
+  }
+  .header-image { display: none; }
+ 
+}
+
+
+@media only screen and (max-width: 767px) {
+  body{font-size: 17px;}
+  .respons-btn {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 20px;
+  }
+  .box { width: 240px !important; }
+  .row{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin: 0 auto;
+    justify-content: center !important;
+  }
+  h3{line-height: 20px;}
+  .logo{width: 70%;
+    margin-left: auto; margin-right: auto;}
+  .container {
+      max-width: 90%;
+      margin: 0 auto;
+    }
+  .header-text-box {
+    margin-top: 50%;
+    margin-left: auto !important;
+    width: 100%;
+    font-size: 80%;
+  }
+  .header-text-box h1 {
+    font-size: 220%;
+    line-height: 40px;
+    width: 100%;
+  }
+  .header-text-box p {
+    width: 100%;
+     margin-top: 10px;
+     font-size: 100%;
+     line-height: 28px;
+   }
+  
+ .editior-choice{width: 100%;}
+ .text-check-box{font-size: 90% !important;}
+ 
+  .trusted_images{display: flex; justify-content: center; }
+  .trusted_images .row img{ width: 100%; margin-top: 20px;}
+  .section_features_image{width: 100%;}
+  .awesome_apps {width: 100%;}
+  .awesome_apps h2 {width: 100%;}
+  .awesome_apps p {width: 100%;}
+  .awesome_box h3{width: 180px;}
+  .texts_smart_jackpots{
+    display: flex;
+    justify-content: center;
+  }
+  .texts_smart_jackpots h2{
+    width: 120%;
+    border-right: none;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 10px;
+    line-height: 40px;
+    border-bottom: 1px solid rgb(161, 161, 161);
+  }
+  .texts_smart_jackpots p{
+    width: 100%;
+    padding-left: 0;
+    margin-left: 0;
+  }
+  .feature_icon_components{ margin-left: auto; }
+  .designed_section_image{width: 100%;}
+  .designed_section_text h1{width: 100%; line-height: 40px; font-size: 150%;}
+  .designed_section_text p{width: 100%; line-height: 20px; }
+  .choose_app_text_box h1{width: 100%; line-height: 40px; font-size: 150%;}
+  .choose_app_components p{margin-left: auto; margin-right: auto;}
+  .ultimate_text_box h2{width: 100%; line-height: 40px; font-size: 150%;}
+  .ultimate_text_box p{width: 100%; line-height: 20px;}
+  .ultimate_component h3{width: 180px;}
+  .ultimate_component:nth-child(2) { margin-left: 0;}
+  .see_all{margin-left: 100px !important;}
+  .ultimate_feature_img{width: 100%;}
+  .get_awesome_text_box h1{width: 100%; line-height: 40px; font-size: 150%;}
+  .get_awesome_pay_component{width: 40%; height: auto;}
+  .get_awesome_pay_component:nth-child(2){height: auto;}
+  .component_header {height: 30%;}
+  .component_header_price h1{font-size: 200%;   margin-top: 10%;}
+  .component_header_price p{font-size: 100%; margin-top: 20%;}
+  .component_categories p{
+    width: 100%; 
+    font-size: 100%; 
+    line-height: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .component_categories a:link,
+  .component_categories a:visited {
+      margin-top: 5%;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 3% 4%!important;
+      width: 70%;
+      font-size: 80%;
+}
+  .meeting_client_section_img{width: 100%;}
+  .meeting_client_box h1{width: 100%; line-height: 40px; font-size: 150%;}
+  .meeting_client_box p{line-height: 20px;}
+  .user-img{margin-left: auto;}
+  .user_name{text-align: center;}
+  .user_name p{width: 150px;}
+  .row-users{display: flex; flex-direction: column; margin-top: 50%; margin-left: -40%; }
+  .row-icon{
+    width: 100px;
+    margin-left: 130px;
+  }
+
+  .asked_header_text_box h1{width: 100%; line-height: 40px; font-size: 150%;}
+  .asked_container { width: 90%; height: 100%;}
+  .asked_section_body h2 {margin-top: 6%; line-height: 30px;}
+  .asked_section_body p { 
+      margin-top: 5%;
+      line-height: 20px;
+      width: 80%;}
+  .asked_secton_row p{ font-size: 80%; line-height: 20px; margin-top: 4%; }
+  .download_section_text_box{width: 100%;}
+  .download_section_text_box h1{width: 100%; line-height: 40px; font-size: 150%;}
+  .row_download_buttons {display: flex; flex-direction: column;}
+  .download_buttons{margin-top: 10px;}
+  .download_buttons:nth-child(2){margin-left: 0;}
+  .dowload_app_sectopn_img{width: 150%; margin-left: 0;}
+}
+
+
+@media only screen and (max-width: 480px) {
+  .text-check-box{font-size: 75% !important;}
+
+  .awesome_apps h2 {
+    width: 100%; 
+    font-size: 150%;
+    line-height: 35px;
+  }
+  .awesome_box{ width: 30%; }
+  .texts_smart_jackpots h2 { 
+    font-size: 150%;
+    line-height: 35px;
+  }
+  .choose_app_text_box h1{
+    font-size: 150%;
+    line-height: 35px;
+  }
+  .ultimate_component{ margin-left: -50%;}
+  .ultimate_component:nth-child(2) { margin-left: -50%;}
+  .see_all{margin-left: 20% !important;}
+}
